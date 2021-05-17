@@ -1,0 +1,152 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Cedarville-Regular';
+	src: url("../fonts/cdvcursive.ttf");
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+	font-family: 'Montserrat-Semibold';
+	src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+	font-family: 'Montserrat-Thin';
+	src: url("../fonts/Montserrat-Thin.ttf");
+}
+/*some.element{
+    overflow-anchor: none;
+	font-size: 1em;
+    background: #0158149c;
+    font-family: Cedarville-Regular;
+}
+.fixado-inner{
+    top: 20px;
+    display: inline;
+}
+*/
+body{
+    background: #283618a9;
+}
+.dropbtn {
+    background-color: #606c38b6;
+    color: #fefae0;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0 0 15px;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fefae0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat-Light';
+}
+  .dropdown-content a:hover {background-color: #ddd;
+}
+  .dropdown:hover .dropdown-content {display: block;
+}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #dda15e}
+/*
+#btn-bars{
+    color: #fefae0;
+    font-size: 35px;
+    background: none;
+    border: none;
+    display: block;
+    z-index: 3;
+    margin-left: 20px;
+    margin-top: 20px;
+} */
+h1{
+    color: #fefae0;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    padding: 0;
+    font-family: Montserrat-Semibold;
+}
+h2{
+    color: #BC6C25;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+    display: block;
+    padding: 0;
+    font-family: Montserrat-Light;
+}
+#imagem, #type{
+    overflow-anchor: none;
+}
+#imagem{
+    width: 5%;
+    align-content: center;
+    margin-left: 650px;
+    display: block;
+    margin-top: -60px;
+}
+#type{
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 550px;
+}
+.post-central{
+    margin-left: 370px;
+    margin-top: 70px;
+}
+p{
+    color: #fefae0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    padding: 0;
+    font-family: Montserrat-Thin;
+}
+#primeiro {
+    margin-top: 25px;
+}
+#segundo{
+    margin-top: 10px;
+}
+#terceiro{
+    margin-top: 10px;
+}
+h3{
+    color: #283618;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    padding: 0;
+    font-family: Montserrat-Light;
+}
+#fafb, #faig, #fawpp{
+    font-size: 60px;
+    color: #fefae0;
+}
+.container.midias-sociais{
+    text-align: center;
+    margin-top: 80px;
+}
+#faig{
+    margin: 0 200px 0 200px;
+}

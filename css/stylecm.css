@@ -1,0 +1,140 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'Cedarville-Regular';
+	src: url("../fonts/cdvcursive.ttf");
+}
+@font-face {
+	font-family: 'Montserrat-Light';
+	src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+	font-family: 'Montserrat-Semibold';
+	src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+@font-face {
+	font-family: 'Montserrat-Thin';
+	src: url("../fonts/Montserrat-Thin.ttf");
+}
+body{
+    background: #283618a9;
+}
+.dropbtn {
+    background-color: #606c38b6;
+    color: #fefae0;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0 0 15px;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fefae0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Montserrat-Light';
+}
+  .dropdown-content a:hover {background-color: #ddd;
+}
+  .dropdown:hover .dropdown-content {display: block;
+}
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #dda15e}
+  h1{
+    color: #fefae0;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 60px;
+    display: block;
+    padding: 0;
+    font-family: Montserrat-Semibold;
+}
+h2{
+    color: #BC6C25;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+    display: block;
+    padding: 0;
+    font-family: Montserrat-Light;
+}
+#imagem, #type{
+    overflow-anchor: none;
+}
+#imagem{
+    width: 5%;
+    align-content: center;
+    margin-left: 650px;
+    display: block;
+    margin-top: -60px;
+}
+#type{
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 550px;
+}
+#amora, #cacau, #banana-kiwi, #cafe-laranja{
+    position: absolute;
+}
+#amora{
+    margin-top: 20px;
+    width: 32%;
+    z-index: 3;
+    margin-right: 20px;
+}
+#banana-kiwi{
+    margin-top: 17px;
+    width: 29%;
+    margin-left: 315px;
+}
+#cacau{
+    margin-left: 660px;
+    width: 27%;
+    margin-top: 17px;
+}
+#cafe-laranja{
+    margin-top: -22px; 
+    margin-left: 938px;
+}
+#carambola-maracuja, #cebola-bacon, #frutas-vermelhas, #hibisco{
+    position: absolute;
+}
+#carambola-maracuja{
+    top: 717px;
+    left: -7px;
+    width: 34%;
+}
+#cebola-bacon{
+    top: 728px;
+    left: 327px;
+    width: 32%;
+}
+#frutas-vermelhas{
+    top: 723px;
+    left: 634px;
+    width: 34%;
+}
+#hibisco{
+    top: 729px;
+    left: 980px;
+    width: 31%;
+}
+/*#geleia-fila-um p {
+	color: #fefae0;
+	text-transform: lowercase;
+	font-family: 'Montserrat-Light';
+	font-size: 64px;
+    display: block;
+}*/
